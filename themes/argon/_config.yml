@@ -1,5 +1,5 @@
 # 全局
-theme_color: '#286f22' # 主题色
+theme_color: '#1433e8' # 主题色
 show_customize_theme_color_picker: true # 允许用户自定义主题色
 darkmode_autoswitch: false # 自动切换夜间模式，可选: false 默认使用日间, alwayson 默认使用夜间, system 跟随系统, time 随时间切换
 enable_amoled_dark: false # 夜间模式样式，false 为灰黑，true 则为暗黑
@@ -9,7 +9,7 @@ font: sans-serif # 默认字体，可选: sans-serif 无衬线字体, serif 衬�
 enable_headroom: false # 滚动时是否自动折叠顶栏
 
 # 顶栏
-toolbar_icon: 'https://img1.imgtp.com/2023/09/30/oAh4MMMS.jpg' # 顶栏图标图片地址，留空则不显示
+toolbar_icon: '' # 顶栏图标图片地址，留空则不显示
 toolbar_icon_link: '/' # 顶栏图标链接，点击时跳转
 toolbar_title: 'WANGYUYAOのBLOG' # 顶栏标题，留空则跟随博客标题
 toolbar_menu: # 顶栏菜单，支持二级菜单
@@ -33,7 +33,7 @@ sidebar_announcement: '这是一个WANGYUYAO搭建的破小站，以c++干货为
 leftbar_menu: # 侧栏顶部菜单，支持无限层级菜单嵌套
   首页: /
   归档: /archives
-sidebar_auther_image: 'https://img1.imgtp.com/2023/09/30/oAh4MMMS.jpg' # 侧栏作者头像
+sidebar_auther_image: '/assets/img/author.jpg' # 侧栏作者头像
 sidebar_auther_name: 'WANGYUYAO' # 侧栏作者名，留空则跟随博客名
 leftbar_author_links: # 侧栏作者链接列表
   Luogu: https://www.luogu.com.cn/user/532626
