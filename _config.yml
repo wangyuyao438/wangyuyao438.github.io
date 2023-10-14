@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://wangyuyao438.github.io
+url: https://wyybloger.pages.dev/ 
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -127,7 +127,7 @@ markdown_it_plus:
       name: '@andatoshiki/markdown-it-katex'
       enable: false
 backup:
-    type: git
-    repository:
-       github: git@github.com:wangyuyao438/blog.git,master
-       gitcafe: git@github.com:wangyuyao438/blog.git,master
+  type: git
+  repository:
+    github: git@github.com:wangyuyao438/wangyuyao438.github.io.git,source
+    gitcafe: git@github.com:wangyuyao438/wangyuyao438.github.io.git,source
