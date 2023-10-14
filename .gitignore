@@ -1,6 +1,3 @@
-[submodule "/theme/butterfly"] 
-  path = /theme/butterfly
-  url = git://theme/butterfly
 .DS_Store
 Thumbs.db
 db.json
