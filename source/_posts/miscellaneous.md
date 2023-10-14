@@ -20,7 +20,7 @@ category: 贪心
 | 要求答案 | $\dfrac{S_1+S_2+\cdots+S_n}{n}$                              |
 | -------- | ------------------------------------------------------------ |
 | 最优方案 | 对于$T$数列, $T_1 \leq T_2\leq\cdots \leq T_n$               |
-| 证明     | $ T_1 \leq  T_2 \leq  T_3 \leq \cdots \leq T_n $ (方案$A$,贪心策略)，设在此策略下，有 $ T_1 \leq  T_u \leq  T_v \leq \cdots \leq  T_n $<br>若 $u$ 和 $v$ 交换，则交换前和交换后 $u,v$ 总时间变为：$2u+v \to 2v+u$<br>$\because T_v \ge T_u, \therefore 2u+v $优于$ 2v+u$，贪心策略成立，证毕。 |
+| 证明     | $ T_1 \leq  T_2 \leq  T_3 \leq \cdots \leq T_n $ (方案$A$,贪心策略)，设在此策略下，有 $ T_1 \leq  T_u \leq  T_v \leq \cdots \leq  T_n $<br>若 $u$ 和 $v$ 交换，则交换前和交换后 $u,v$ 总时间变为：$2u+v \to 2v+u$<br>  $\because T_v \ge T_u, \therefore 2u+v$ 优于 $2v+u$，贪心策略成立，证毕。 |
 
 ## Problem 2
 
