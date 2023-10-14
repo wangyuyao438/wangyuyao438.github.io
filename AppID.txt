@@ -1,0 +1,9 @@
+AppID
+oU0jH5kIOTP3xlYY91rZWxk6-MdYXbMMI 
+AppID 是该项目的唯一标识符。此 ID 不可变更。
+AppKey
+cPopTGvw1Kds6xs48x5mALDV 
+AppKey 是公开的访问密钥，适用于在公开的客户端中使用。使用 AppKey 进行的访问受到 ACL 的限制。
+MasterKey
+kB1J96ceUTDx3pxkWoQ4x5Nr  
+MasterKey 是私密的访问密钥，适用于在服务器等受信任的客户端环境中使用。使用 MasterKey 进行的访问拥有最高权限，不受任何 ACL 限制。
