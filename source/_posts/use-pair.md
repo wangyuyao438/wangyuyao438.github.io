@@ -4,7 +4,7 @@ date: 2023-09-26 06:26:51
 tags: STL
 author: WANGYUYAO
 category: STL
-excerpt: pair是一对数据而且他们的数据类型不同，同时它对结构体和没有重定向小于号的数据，进行排序或去重时，需要重定向小于号
+description: pair是一对数据而且他们的数据类型不同，同时它对结构体和没有重定向小于号的数据，进行排序或去重时，需要重定向小于号
 ---
 
 # 介绍pair

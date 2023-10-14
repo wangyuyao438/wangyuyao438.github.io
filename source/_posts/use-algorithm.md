@@ -4,7 +4,7 @@ date: 2023-09-26 06:27:43
 tags: STL
 author: WANGYUYAO
 category: STL
-excerpt: algorithm是STL中大部分非成员函数的合集，从各种方面来说都非常好用，但是在有些正规考试中不给用STL（悲
+description: algorithm是STL中大部分非成员函数的合集，从各种方面来说都非常好用，但是在有些正规考试中不给用STL（悲
 ---
 
 # 1. 什么是algorithm？

@@ -4,7 +4,7 @@ date: 2023-09-26 06:27:16
 tags: STL
 author: WANGYUYAO
 category: STL
-excerpt: vector是一种可变数组,是部分STL容器的基类(基于vector开发deque,priority_queue等)
+description: vector是一种可变数组,是部分STL容器的基类(基于vector开发deque,priority_queue等)
 ---
 
 # 1.什么是vector

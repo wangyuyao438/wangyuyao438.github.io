@@ -3,7 +3,7 @@ title: 贪心杂题证明
 date: 2023-10-01 11:05:53
 tags: [贪心, 算法, 数学]
 author: WANGYUYAO
-excerpt: 此杂题集持续更新，主要包括贪心的题目，如排队接水问题等。
+description: 此杂题集持续更新，主要包括贪心的题目，如排队接水问题等。
 category: 贪心
 ---
 
@@ -19,8 +19,8 @@ category: 贪心
 
 | 要求答案 | $\dfrac{S_1+S_2+\cdots+S_n}{n}$                              |
 | -------- | ------------------------------------------------------------ |
-| 最优方案 | $对于T数列, T_1 \leq T_2\leq\cdots \leq T_n$                 |
-| 证明     | $ T_1 \leq  T_2 \leq  T_3 \leq \cdots \leq T_n $ (方案$A$,贪心策略)，设在此策略下，有 $ T_1 \leq  T_u \leq  T_v \leq \cdots \leq  T_n $<br>若 $u$ 和 $v$ 交换，则交换前和交换后 $u,v$ 总时间变为：$2u+v \to 2v+u$<br>$\because T_v \ge T_u, \therefore 2u+v 优于 2v+u$，贪心策略成立，证毕。 |
+| 最优方案 | 对于$T$数列, $T_1 \leq T_2\leq\cdots \leq T_n$               |
+| 证明     | $ T_1 \leq  T_2 \leq  T_3 \leq \cdots \leq T_n $ (方案$A$,贪心策略)，设在此策略下，有 $ T_1 \leq  T_u \leq  T_v \leq \cdots \leq  T_n $<br>若 $u$ 和 $v$ 交换，则交换前和交换后 $u,v$ 总时间变为：$2u+v \to 2v+u$<br>$\because T_v \ge T_u, \therefore 2u+v $优于$ 2v+u$，贪心策略成立，证毕。 |
 
 ## Problem 2
 
@@ -32,6 +32,6 @@ category: 贪心
 
 | 要求答案 | $\sum A_1\times A_2\times A_3\times \cdots\times A_i \div B_i$ |
 | -------- | ------------------------------------------------------------ |
-| 最优方案 | $对于A中的A_i和A_j(i\le j),满足A_i\cdot B_i\leq A_j\cdot B_j$ |
+| 最优方案 | 对于$A$中的$A_i$和$A_j(i\le j)$,满足$A_i\cdot B_i\leq A_j\cdot B_j$ |
 | 证明     | 考虑相邻的$(A_1,B_1)$和$(A_2,B_2)$，若按原序为最优答案$\max\{S\div B_1,S\times A_1/B_2\}$<br>若调换它们的位置（得出的答案小于等于最优解）则为$\max\{S\div B_2,S\times A_2/B_1\}$<br>将上下相消则有$A_1\div B_2\leq A_2\div B_1$，十字相乘，证毕。 |
 

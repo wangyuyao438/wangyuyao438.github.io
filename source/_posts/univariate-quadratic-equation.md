@@ -3,7 +3,7 @@ title: 一元二次方程
 date: 2023-09-29 09:15:17
 tags: 数学
 category: 数学
-excerpt: CSP-J2022 T2 就是基于一元二次方程实现的，对于一般的一元二次方程都有两个解。
+description: CSP-J2022 T2 就是基于一元二次方程实现的，对于一般的一元二次方程都有两个解。
 author: WANGYUYAO
 ---
 

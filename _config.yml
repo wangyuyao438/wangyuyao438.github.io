@@ -8,8 +8,8 @@ subtitle: 'WYYのBLOG'
 description: 'I want something just like this'
 keywords:
 author: WANGYUYAO
-language: zh
-timezone: ''
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -48,7 +48,7 @@ highlight:
   auto_detect: false
   line_number: true
   line_threshold: 0
-  tab_replace: ''
+  tab_replace: '  '
   exclude_languages:
     - example
   wrap: true
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: argon
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

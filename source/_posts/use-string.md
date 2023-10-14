@@ -4,7 +4,7 @@ date: 2023-09-26 06:27:28
 tags: STL
 author: WANGYUYAO
 category: STL
-excerpt: string的用法比较灵活，类似于char类型的vector，但是很方便，而且出现范围很广。
+description: string的用法比较灵活，类似于char类型的vector，但是很方便，而且出现范围很广。
 ---
 
 # 1.什么是string

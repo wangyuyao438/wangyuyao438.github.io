@@ -4,7 +4,7 @@ date: 2023-09-26 06:27:07
 tags: STL
 author: WANGYUYAO
 category: STL
-excerpt: set就是一个拥有互异性的集合，按升序(从小到大)排列的一串数据。
+description: set就是一个拥有互异性的集合，按升序(从小到大)排列的一串数据。
 ---
 
 # 介绍set
