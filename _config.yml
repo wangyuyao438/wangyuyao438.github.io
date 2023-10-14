@@ -129,5 +129,8 @@ markdown_it_plus:
 backup:
   type: git
   repository:
-    github: git@github.com:wangyuyao438/blog.git,master
-    gitcafe: git@github.com:wangyuyao438/blog.git,master
+    github: git@github.com:wangyuyao438/wangyuyao438.github.io.git,source
+    gitcafe: git@github.com:wangyuyao438/wangyuyao438.github.io.git,source
+cdn:
+  jsdelivr:
+    enabled: true
