@@ -13,6 +13,6 @@ npm un hexo-renderer-marked --save
 npm i hexo-renderer-markdown-it --save          
 npm i hexo-image-link --save           
 cd ../             
-cp -r `ls | grep -v hexo | grep -v _config.yml | xargs` hexo/source/_posts          
-cp _config.yml hexo              
-cd hexo && hexo g --config _config.yml                   
+cp -r `ls | grep -v hexo | grep -v config.yml | xargs` hexo/source/_posts          
+cp config.yml hexo              
+cd hexo && hexo g --config config.yml                   
