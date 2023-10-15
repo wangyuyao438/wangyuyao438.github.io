@@ -1903,8 +1903,8 @@ pre[class*='language-'] pre > code.highlight {
 }
 #article-container pre,
 #article-container code {
-  font-size: var(--global-font-size);
-  font-family: webfont !important;
+  font-size: 16px;
+  font-family: codefont !important;
 }
 #article-container code {
   padding: 2px 4px;
@@ -1931,7 +1931,7 @@ pre[class*='language-'] pre > code.highlight {
 #article-container figure.highlight figcaption,
 #article-container figure.highlight .caption {
   padding: 6px 0 2px 14px;
-  font-size: var(--global-font-size);
+  font-size: 16px;
   line-height: 1em;
 }
 #article-container figure.highlight figcaption a,
@@ -1977,7 +1977,7 @@ pre[class*='language-'] pre > code.highlight {
   height: 2.15em;
   background: var(--hltools-bg);
   color: var(--hltools-color);
-  font-size: var(--global-font-size);
+  font-size: 16px;
 }
 #article-container .highlight-tools.closed ~ * {
   display: none;

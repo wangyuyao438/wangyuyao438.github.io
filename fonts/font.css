@@ -3,3 +3,8 @@
   font-display: swap;
   src: url('/fonts/font73.ttf') format("truetype");  
 }
+@font-face {
+  font-family: "codefont";
+  font-display: swap;
+  src: url('/fonts/cour.ttf') format("truetype");
+}
