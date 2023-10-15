@@ -5,6 +5,7 @@ date: 2023-09-25 12:00:51
 tags: 题解
 category: 题解
 description: 给定一个 8 位数的日期，请你计算该日期之后下一个回文日期和下一个 ABABBABA 型的回文日期各是哪一天。
+cover: https://img1.imgtp.com/2023/10/15/iJYbwAie.png
 ---
 
 #### 原题？[Link](https://www.luogu.com.cn/problem/P8716)

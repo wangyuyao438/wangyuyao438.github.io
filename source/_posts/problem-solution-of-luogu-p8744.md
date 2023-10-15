@@ -5,6 +5,7 @@ tags: 题解
 author: WANGYUYAO
 category: 题解
 excerpt: 给定一棵节点个数为 N 的多叉树，求其通过"左孩子右兄弟"表示法转化成的二叉树，高度最高是多少。
+cover: https://luogu.oss-cn-hangzhou.aliyuncs.com/upload/vjudge_pic/lanqiao/2022_09_29_d8f144a59f4c0ce9322ag-11.jpg
 ---
 
 #### 原题？[Link](https://www.luogu.com.cn/problem/P8744)

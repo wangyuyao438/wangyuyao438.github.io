@@ -701,17 +701,19 @@ fireworks:
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
-  enable: false
+  enable: true
   mobile: false
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
 clickShowText:
-  enable: false
+  enable: true
   text:
-    # - I
-    # - LOVE
-    # - YOU
-  fontSize: 15px
+    - I
+    - AK
+    - IOI
+    - EVERY
+    - DAY
+  fontSize: 20px
   random: false
   mobile: false
 
@@ -730,9 +732,9 @@ beautify:
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
   global-font-size: 18px
-  code-font-size: 
+  code-font-size: 16px
   font-family: webfont
-  code-font-family: webfont
+  code-font-family: codefont
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字

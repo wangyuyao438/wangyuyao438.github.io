@@ -5,6 +5,7 @@ tags: STL
 author: WANGYUYAO
 category: STL
 description: set就是一个拥有互异性的集合，按升序(从小到大)排列的一串数据。
+cover: https://img1.imgtp.com/2023/10/15/MWw9UcgW.png
 ---
 
 # 介绍set

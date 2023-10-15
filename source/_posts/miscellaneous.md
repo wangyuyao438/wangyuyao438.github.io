@@ -5,6 +5,7 @@ tags: [贪心, 算法, 数学]
 author: WANGYUYAO
 description: 此杂题集持续更新，主要包括贪心的题目，如排队接水问题等。
 category: 贪心
+cover: https://img1.imgtp.com/2023/10/15/BsslXaue.png
 ---
 
 # 杂题

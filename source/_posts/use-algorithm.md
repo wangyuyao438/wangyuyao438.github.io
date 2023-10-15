@@ -5,6 +5,7 @@ tags: STL
 author: WANGYUYAO
 category: STL
 description: algorithm是STL中大部分非成员函数的合集，从各种方面来说都非常好用，但是在有些正规考试中不给用STL（悲
+cover: https://img1.imgtp.com/2023/10/15/mlK5Xuzp.png
 ---
 
 # 1. 什么是algorithm？
