@@ -24,7 +24,7 @@ cover: https://img1.imgtp.com/2023/10/15/itftmq9M.png
 
 > <p style = "font-size:x-large">举个例子：最短路径问题求解</p>
 >
-> ![pic1-elementary-introduction-of-dynamic-programming.jpg](https://img1.imgtp.com/2023/09/30/RTUZShs6.jpg)
+> ![pic1-elementary-introduction-of-dynamic-programming.jpg](https://img1.imgtp.com/2023/10/15/d3sGgYto.jpg)
 > 求 $A$ 到达 $E$ 的最短距离。
 > 思考：仔细观察本图路径的特殊性，可以分成四个阶段。
 >
