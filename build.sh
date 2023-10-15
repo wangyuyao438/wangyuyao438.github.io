@@ -11,7 +11,6 @@ npm i hexo-renderer-pug hexo-renderer-stylus --save
 npm un hexo-renderer-marked --save
 npm i hexo-renderer-markdown-it --save
 npm i hexo-image-link --save
-
 cd ../ 
 cp -r `ls | grep -v hexo | grep -v config.yml | xargs` hexo/source/_posts
 cp config.yml hexo
