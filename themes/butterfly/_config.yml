@@ -3,7 +3,7 @@
 # --------------------------------------
 
 nav:
-  logo: # image
+  logo: https://static.florr.io/381b2d2e04cb54e4fb679c54f42d3cd78f087c9b/apple-touch-icon.png# image
   display_title: true
   fixed: false # fixed navigation bar
 
@@ -22,7 +22,7 @@ menu:
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -34,7 +34,7 @@ code_word_wrap: false
 #   icon: link || the description || color
 social:
   GitHub: https://github.com/wangyuyao438 || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fas fa-envelope: mailto:wwangang@outlook.com || Email || '#4a7dbe'
 
 # Image (圖片設置)
 # --------------------------------------
@@ -208,7 +208,7 @@ footer:
   owner:
     enable: true
     since: 2023
-  custom_text: 
+  custom_text: <span id = "runtime"></span>
   copyright: true # Copyright of theme and framework
 
 # aside (側邊欄)
@@ -422,7 +422,7 @@ disqus:
 # https://github.com/SukkaW/DisqusJS
 disqusjs:
   shortname:
-  apikey:
+  apikey: 
   option:
 
 # livere (來必力)
@@ -462,9 +462,9 @@ waline:
 # utterances
 # https://utteranc.es/
 utterances:
-  repo:
+  repo: wangyuyao438/btalk
   # Issue Mapping: pathname/url/title/og:title
-  issue_term: pathname
+  issue_term: title
   # Theme: github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
   light_theme: github-light
   dark_theme: photon-dark
@@ -525,8 +525,8 @@ chat_hide_show: false
 # chatra
 # https://chatra.io/
 chatra:
-  enable: false
-  id:
+  enable: true
+  id: "Jja8QD5StqKRuzjC8"
 
 # tidio
 # https://www.tidio.com/
@@ -671,16 +671,16 @@ activate_power_mode:
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
+  click_to_change: true
   mobile: false
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: false
+  enable: true
   mobile: false
 
 # canvas_nest
@@ -695,25 +695,25 @@ canvas_nest:
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999 # -1 or 9999
   mobile: false
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
-  enable: true
+  enable: false
   mobile: false
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
 clickShowText:
   enable: true
   text:
-    - I
-    - AK
-    - IOI
-    - EVERY
-    - DAY
-  fontSize: 20px
+    - 😁
+    - 😀
+    - 😋
+    - 😊
+    - 😄
+  fontSize: 40px
   random: false
   mobile: false
 
@@ -738,9 +738,9 @@ font:
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
-blog_title_font:
-  font_link:
-  font-family:
+blog_title_font:  
+  font_link: 
+  font-family: 
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
@@ -755,8 +755,7 @@ subtitle:
   effect: true
   # Customize typed.js (配置typed.js)
   # https://github.com/mattboldt/typed.js/#customization
-  typed_option:
-  loop: false
+  typed_option: false
   # source 調用第三方服務
   # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
@@ -775,7 +774,7 @@ preloader:
   # 2. pace (progress bar)
   source: 1
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+  pace_css_url: 
 
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
@@ -915,8 +914,11 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/fonts/font.css">
+    - <link rel="stylesheet" href="/css/flipcountdown.css">
   bottom:
-    # - <script src="xxxx"></script>
+    - <script src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
+    - <script src="/js/flipcountdown.js"></script>
+    - <script data-pjax src="/js/runtime.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
