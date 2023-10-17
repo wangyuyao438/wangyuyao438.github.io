@@ -47,7 +47,7 @@ cover: https://img1.imgtp.com/2023/10/15/itftmq9M.png
 >
 > **解决方法：倒着推 (设 $F(x)$ 表示 $x$ 点到 $E$ 点的最短路径的长度)**
 >
-> 不难想到：$F(x) = \min\{所有x点指向的点y之间的路径长度 + F(y)\}$
+> **不难想到：$F(x) = \min\{$ 所有 $x$ 点指向的点 $y$ 之间的路径长度 $+ F(y)\}$**
 
 **名词解释**: 我们把 $F(x)$ 称为当前<font color = "Red"> x 的状态</font>；每一的阶段的选择<font color = "Red">依赖于</font>当前的状态，又随即<font color = "Red">引起状态的转移</font>；一个决策序列$\color{blue}\{E\to D_3\to C_4\to B_2\to A\}$就是在<font color = "Red">变化的状态</font>中产生的，故有<font color = "Red">“动态”</font>的含义。
 

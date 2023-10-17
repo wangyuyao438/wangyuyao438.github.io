@@ -8,25 +8,23 @@ author: WANGYUYAO
 cover: https://img1.imgtp.com/2023/10/15/oilZFi73.jpg
 ---
 
-$\large对于每一个{\color{blue}{一元二次方程}}ax^2+bx+c=0,它的根是$
+对于每一个<font color = "blue">一元二次方程</font>$\large ax^2+bx+c=0$,它的根是
 
 $\large\color{red}x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a}\color{black}$
 
-$\large其中，{\color{blue}根}与{\color{blue}系数}的关系是：$
+其中，<font color = "blue">根</font>与<font color = "blue">系数</font>的关系是：
 
 $\large\color{red}x_1+x_2=-\dfrac{b}{a}$
 
-$\color{red}\Huge \text{AND}$
-
 $\large\color{red}x_1 \times x_2=\dfrac{c}{a}$
 
-$\large{\color{blue}判别式}为\Delta=b^2-4ac.$
+<font color = "blue">判别式</font>为$\large\Delta=b^2-4ac.$
 
-$\large当\Delta>0时，方程有两个不相等的实数根；$
+当$\large\Delta>0$时，方程有两个<font color = "red">不相等</font>的实数根；
 
-$\large当\Delta=0时，方程有两个相等的实数根；$
+当$\large\Delta=0$时，方程有两个<font color = "red">相等</font>的实数根；
 
-$\large当\Delta<0时，方程无实数根。$
+当$\large\Delta<0$时，方程<font color = "red">无实数根</font>。
 
-$\scriptsize \color{grey}\text{以上内容来自bing.com}$
+<font size=2 color="grey">以上内容来自bing.com</font>
 

@@ -10,7 +10,7 @@ cover: https://img1.imgtp.com/2023/10/15/mlK5Xuzp.png
 
 # 1. 什么是algorithm？
 
-algorithm库装满了好用的库函数，一般由`#include <algorithm>`包含。~~可是本蒻蒻还是喜欢万能头(逃~~
+algorithm库装满了好用的库函数，一般由`#include <algorithm>`包含。~~可是本JURUO还是喜欢万能头(逃~~
 
 # 2. 经典的库函数
 ## (1) sort()函数

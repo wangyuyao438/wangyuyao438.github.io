@@ -919,6 +919,8 @@ inject:
     - <script src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
     - <script src="/js/flipcountdown.js"></script>
     - <script data-pjax src="/js/runtime.js"></script>
+    - <script src="/js/calendar.js"></script>
+    - <script src="/js/languages.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
