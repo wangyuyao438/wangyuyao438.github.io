@@ -3,7 +3,7 @@
 # --------------------------------------
 
 nav:
-  logo: https://static.florr.io/381b2d2e04cb54e4fb679c54f42d3cd78f087c9b/apple-touch-icon.png# image
+  logo: https://static.florr.io/381b2d2e04cb54e4fb679c54f42d3cd78f087c9b/apple-touch-icon.png
   display_title: true
   fixed: false # fixed navigation bar
 
@@ -131,7 +131,7 @@ anchor:
   click_to_scroll: false
 
 # figcaption (圖片描述文字)
-photofigcaption: false
+photofigcaption: true
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
@@ -740,7 +740,7 @@ font:
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:  
   font_link: 
-  font-family: 
+  font-family: webfont
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
@@ -815,7 +815,7 @@ abcjs:
 # mermaid
 # see https://github.com/mermaid-js/mermaid
 mermaid:
-  enable: false
+  enable: true
   # built-in themes: default/forest/dark/neutral
   theme:
     light: default
@@ -870,7 +870,7 @@ instantpage: false
 # Insert a space between Chinese character and English character (中英文之間添加空格)
 pangu:
   enable: true
-  field: site # site/post
+  field: post # site/post
 
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
@@ -921,6 +921,26 @@ inject:
     - <script data-pjax src="/js/runtime.js"></script>
     - <script src="/js/calendar.js"></script>
     - <script src="/js/languages.js"></script>
+    - <script src="/js/mermaid.min.js"></script>
+    - <script src="/js/mermaid.min.js.map"></script>
+    
+# electric_clock
+# see https://akilar.top/posts/4e39cf4a/
+electric_clock:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  exclude:
+    # - /posts/
+    # - /about/
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  loading: https://unpkg.zhimg.com/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
+  clock_css: https://unpkg.zhimg.com/hexo-butterfly-clock/lib/clock.min.css
+  clock_js: https://unpkg.zhimg.com/hexo-butterfly-clock/lib/clock.min.js
+  ip_api: https://pv.sohu.com/cityjson?ie=utf-8
 
 # CDN
 # Don't modify the following settings unless you know how they work

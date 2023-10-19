@@ -1,5 +1,5 @@
 $(function(){
-  var NY = Math.round((new Date('4/17/2019 00:00:00')).getTime()/1000); //Date修改为你的建站时间。
+  var NY = Math.round((new Date('9/25/2023 00:00:00')).getTime()/1000); //Date修改为你的建站时间。
   $('#runtime').flipcountdown({
     size:"xs",//可以自定义翻页计时器大小。从大到小依次是lg、md、sm、xs。
     tick:function(){
