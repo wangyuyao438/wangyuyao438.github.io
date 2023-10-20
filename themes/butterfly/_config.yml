@@ -22,7 +22,7 @@ menu:
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -923,24 +923,6 @@ inject:
     - <script src="/js/languages.js"></script>
     - <script src="/js/mermaid.min.js"></script>
     - <script src="/js/mermaid.min.js.map"></script>
-    
-# electric_clock
-# see https://akilar.top/posts/4e39cf4a/
-electric_clock:
-  enable: true # 开关
-  priority: 5 #过滤器优先权
-  enable_page: all # 应用页面
-  exclude:
-    # - /posts/
-    # - /about/
-  layout: # 挂载容器类型
-    type: class
-    name: sticky_layout
-    index: 0
-  loading: https://unpkg.zhimg.com/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
-  clock_css: https://unpkg.zhimg.com/hexo-butterfly-clock/lib/clock.min.css
-  clock_js: https://unpkg.zhimg.com/hexo-butterfly-clock/lib/clock.min.js
-  ip_api: https://pv.sohu.com/cityjson?ie=utf-8
 
 # CDN
 # Don't modify the following settings unless you know how they work

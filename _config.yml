@@ -144,7 +144,7 @@ mermaid: ## mermaid url https://github.com/knsv/mermaid
 # see https://akilar.top/posts/4e39cf4a/
 electric_clock:
   priority: 3
-  enable: true
+  enable: false
   enable_page: all
   layout:
     type: class
