@@ -41,6 +41,7 @@
     "hexo-simple-mindmap": "^0.8.0",
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-theme-landscape": "^1.0.0",
-    "katex": "^0.16.8"
+    "katex": "^0.16.8",
+    "mongodb": "^6.2.0"
   }
 }
