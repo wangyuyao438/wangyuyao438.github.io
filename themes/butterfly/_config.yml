@@ -752,7 +752,7 @@ hr_icon:
 subtitle:
   enable: true
   # Typewriter Effect (打字效果)
-  effect: true
+  effect: false
   # Customize typed.js (配置typed.js)
   # https://github.com/mattboldt/typed.js/#customization
   typed_option: false
@@ -772,7 +772,7 @@ preloader:
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 1
+  source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url: 
 
