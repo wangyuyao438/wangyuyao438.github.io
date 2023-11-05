@@ -570,7 +570,7 @@ cloudflare_analytics:
 
 # Microsoft Clarity
 # https://clarity.microsoft.com/
-microsoft_clarity:
+microsoft_clarity: jliehejn2a
 
 # Advertisement
 # --------------------------------------
@@ -842,14 +842,14 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     # - xxxx
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -916,6 +916,7 @@ inject:
     - <link rel="stylesheet" href="/fonts/font.css">
     - <link rel="stylesheet" href="/css/flipcountdown.css">
   bottom:
+    - <script src="/js/sun_moon.js" async></script>
     - <script src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
     - <script src="/js/flipcountdown.js"></script>
     - <script data-pjax src="/js/runtime.js"></script>
@@ -923,6 +924,7 @@ inject:
     - <script src="/js/languages.js"></script>
     - <script src="/js/mermaid.min.js"></script>
     - <script src="/js/mermaid.min.js.map"></script>
+    - <div class="aplayer no-destroy" data-id="8831443816" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-lrctype="1" data-preload="none" data-autoplay="true" muted></div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -1001,3 +1003,4 @@ CDN:
     # valine:
     # waline_css:
     # waline_js:
+
