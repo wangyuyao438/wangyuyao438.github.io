@@ -755,16 +755,18 @@ subtitle:
   effect: false
   # Customize typed.js (配置typed.js)
   # https://github.com/mattboldt/typed.js/#customization
-  typed_option: false
+  typed_option: true
+  loop: false
   # source 調用第三方服務
   # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
   # source: 2  調用一句網（簡體） https://yijuzhan.com/
-  source: 3  
+  source: false
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   # source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
-  sub:
+  sub: 
+    - 忆一世，悟一世。逸久，忆旧，罢已龄。
 
 # Loading Animation (加載動畫)
 preloader:
@@ -915,6 +917,8 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/fonts/font.css">
     - <link rel="stylesheet" href="/css/flipcountdown.css">
+    - <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/mainColor/heoMainColor.css">
+    - <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/poem/poem.css">
   bottom:
     - <script src="/js/sun_moon.js" async></script>
     - <script src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
